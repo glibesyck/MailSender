@@ -10,8 +10,8 @@ class ClientTest {
 
     @Test
     void getId() {
-        assertEquals(firstClient.getId(), 0);
-        assertEquals(secondClient.getId(), 1);
+        assertEquals(firstClient.getId(), 2);
+        assertEquals(secondClient.getId(), 3);
 
     }
 }
